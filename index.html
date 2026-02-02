@@ -1,0 +1,38 @@
+<!DOCTYPE html>
+<html lang="ru">
+<head>
+    <meta charset="UTF-8">
+    <style>
+        body { background: #0a0a0a; color: #e0e0e0; font-family: 'Courier New', monospace; }
+        .header { border-bottom: 2px solid #ff0000; padding: 20px; text-align: center; color: #ff0000; text-transform: uppercase; letter-spacing: 5px; }
+        .news-grid { display: flex; justify-content: space-around; padding: 20px; }
+        .case-file { width: 45%; border: 1px solid #333; padding: 10px; background: #111; }
+        .photo-container { position: relative; border: 2px solid #444; }
+        .photo-container img { width: 100%; filter: grayscale(100%) contrast(120%); }
+        .overlay { position: absolute; top: 10px; left: 10px; color: #0f0; font-size: 12px; }
+        .headline { color: #ff0000; margin-top: 15px; font-weight: bold; font-size: 1.2em; }
+        .description { font-style: italic; color: #888; margin-top: 5px; }
+    </style>
+</head>
+<body>
+    <div class="header"><h1>NEWS ALLMAP</h1></div>
+    <div class="news-grid">
+        <div class="case-file">
+            <div class="photo-container">
+                <div class="overlay">REC 01.02.2026 04:08</div>
+                <img src="image_2683f0.jpg" alt="Subject A">
+            </div>
+            <div class="headline">ОБЪЕКТ №1: «НАСИЛЬНИК МЕСТНЫЙ»</div>
+            <div class="description">насильник местный всех переебал в его селе городе регионе пиздец.</div>
+        </div>
+        <div class="case-file">
+            <div class="photo-container">
+                <div class="overlay">REC 01.02.2026 04:10</div>
+                <img src="image_2683ef.png" alt="Subject B">
+            </div>
+            <div class="headline">ОБЪЕКТ №2: «МАГИСТР ГЕЕВ»</div>
+            <div class="description">самый главный магистр геев он сосался со всеми.</div>
+        </div>
+    </div>
+</body>
+</html>
